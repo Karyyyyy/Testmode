@@ -35,7 +35,7 @@ public class DataGenerator {
     }
 
     public static String getRandomLogin() {
-        Faker faker = new Faker((new Locale("en"));
+        Faker faker = new Faker(new Locale("en"));
         return faker.name().username();
     }
 
